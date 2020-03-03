@@ -4,7 +4,11 @@ Pipfile.lock
 
 ### Local project config ###
 
-
+en_index.html
+en_portfolio.html
+portfolio-v2.html
+about.html
+contact.html
 
 # Created by https://www.gitignore.io/api/linux,macos,python,windows,jupyternotebook
 # Edit at https://www.gitignore.io/?templates=linux,macos,python,windows,jupyternotebook
