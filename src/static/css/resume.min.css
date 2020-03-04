@@ -82,36 +82,59 @@ p.lead {
 	color: #0275d8;
 }
 
+
 /* minha modificação */
 /* #NavBar .navbar{
     width: 100%;
 } */
 
+
+/* #NavBar .navbar-collapse{
+    display: flex;
+    align-items: flex-start;
+} */
+
 /* minha modificação */
-#NavBar .navbar-collapse{
+/* #NavBar .navbar-collapse{
     display: flex;
     align-items: flex-start;
     width: 100%;
     margin-bottom: 0;
-}
-
-/* #NavBar .navbar-collapse .navbar-nav {
-    flex-direction: column;
-    width: 100%;
-} */
-/* #NavBar .navbar-collapse .navbar-nav .nav-item {
-    display: block
-}
-#NavBar .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block
 } */
 
+/* @media (max-width: 576px) {
 
-#sideNav .navbar-nav .nav-item .nav-link {
-	font-weight: 800;
-	letter-spacing: .05rem;
-	text-transform: uppercase
-}
+    #NavBar {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh
+    }
+
+    #NavBar .navbar-collapse{
+        display: flex;
+		align-items: flex-start;
+		flex-grow: 0;
+		width: 100%;
+		margin-bottom: auto;
+    }
+
+    #NavBar .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    #NavBar .navbar-collapse .navbar-nav .nav-item {
+        display: block
+    }
+    #NavBar .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block
+    }
+} */
+/* FIM minha modificação */
 
 #sideNav .navbar-toggler:focus {
 	outline-color: #0275d8;
@@ -121,8 +144,9 @@ p.lead {
 	#sideNav {
 		text-align: center;
 		position: fixed;
-		top: 9.5%;  /* minha modificação */
-        margin-top: 0; /* minha modificação */
+		/* top: 9.5%;  /* minha modificação */ */
+        top: 0;  /* minha modificação */
+        /* margin-top: 0; /* minha modificação */ */
 		left: 0;
 		display: flex;
 		flex-direction: column;
@@ -141,14 +165,10 @@ p.lead {
 	}
 	#sideNav .navbar-collapse {
 		display: flex;
-        /* minha modificação */
-        /* top: 19.5%;   */
 		align-items: flex-start;
 		flex-grow: 0;
 		width: 100%;
 		margin-bottom: auto;
-        /* minha modificação */
-        /* margin-top: 9.5%; */
 	}
 	#sideNav .navbar-collapse .navbar-nav {
 		flex-direction: column;
