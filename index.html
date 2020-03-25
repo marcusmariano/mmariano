@@ -1,287 +1,231 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+    <head>
 
-    <!-- Required meta tags -->
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Required meta tags -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="keywords" content="Marcus Ney Mariano, Ciências de Dados, Machine Learning, Engenheiro Mecânico, python">
-    <meta name="description" content="Web Side de Marcus Mariano">
-    <meta name="Author" content="Marcus Mariano">
+        <meta name="keywords" content="Marcus Ney Mariano, Ciências de Dados, Machine Learning, Engenheiro Mecânico, python">
+        <meta name="description" content="Web Side de Marcus Mariano">
+        <meta name="Author" content="Marcus Mariano">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>
+            Data Science Portfólio of Marcus Mariano
+        </title>
 
-    <link rel="stylesheet" type="text/css" href="src/static/css/bootstrap.min.css" rel="stylesheet">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <title>
-        Data Science Portfólio of Marcus Mariano
-    </title>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="src/static/css/core.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-</head>
 
-<body>
+    </head>
 
-    <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
-          <a class="navbar-brand" href="index.html"><img src="src/static/img/science_logo.png" height="30px" width="30px"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <body>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav form-inline">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="error.html">Projetos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfólio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="error.html">Sobre</a>
-              </li>
-            </ul>
-          </div>
+        <!-- Navigation -->
+        <div class="navbar-fixed">
+            <nav class="light-blue darken-3">
+                <div class="nav-wrapper container">
+                    <!-- Logo -->
+                    <a href="#" class="brand-logo">
+                        <img src="src/static/img/science_logo_2.png" height="30px" width="30px">
+                    </a>
 
-        </nav>
-    <!-- End Navigation -->
+                    <!-- Ícone para abrir no Mobile -->
+                    <a href="#" data-target="menu-mobile" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
 
-    <!--- Image Slider -->
-    <!-- Jumbotron -->
-        <div class="card card-image" style="background-image: url(src/static/img/data_01.jpg);">
-          <div class="text-white text-center rgba-stylish-strong py-5 px-4">
-            <div class="py-5">
-
-              <!-- Content -->
-              <h5 class="h5 orange-text"> <img class="image" src="src/static/img/science_logo_3.png"  height="30px" width="30px"> Cientista de Dados em Formação</h5>
-              <h2 class="card-title h2 my-4 py-2">Marcus Ney Mariano da Silva</h2>
-              <p class="mb-4 pb-2 px-md-5 mx-md-5">Sou formado em Engenharia Mecânica pela UFRN, trabalhei por quatro anos em obras de Construção e Montagem Eletromecânica ajudando na gestão de produtividade. Atualmente estou desenvolvendo meus conhecimentos na área de Inteligência Artificial..</p>
-              <a href="error.html" target="_blank" class="btn btn btn-primary peach-gradient"><i class="fas fa-clone left"></i> Ver Projetos</a>
-
-            </div>
-          </div>
+                    <ul id="navbar-items" class="right hide-on-med-and-down">
+                        <li class="active"><a href="#">Home</a></li>
+                        <!-- <li><a href="error.html">Projetos</a></li> -->
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <!-- <li><a href="about.html">Sobre</a></li> -->
+                    </ul>
+                </div>
+            </nav>
         </div>
-    <!-- Jumbotron -->
-    <!--- End Image Slider -->
+
+        <!-- Menu Mobile -->
+        <ul class="sidenav" id="menu-mobile">
+            <li class="active"><a href="#">Home</a></li>
+            <!-- <li><a href="error.html">Projetos</a></li> -->
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <!-- <li><a href="about.html">Sobre</a></li> -->
+        </ul>
+        <!-- End Navigation -->
 
 
-    <!--- Jumbotron -->
-        <div class="jumbotron">
-          <h1 class="display-4">Meu Portfólio!</h1>
-          <p class="lead">Conheça um pouco da minha experiência profissional, estudos realizados, ares de interesse e projetos no meu Portfólio.</p>
-          <hr class="my-4">
-          <p>Tenho conhecimento em Python para Data Science e Machine Learning  (Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn) nas plataformas Jupyter Notebook e Spyder.</p>
-          <a class="btn btn-primary btn-lg" href="portfolio.html" role="button">Ver Portfólio</a>
-        </div>
-    <!--- End Jumbotron -->
-
-    <!--- Welcome Section -->
-    <!--- End Welcome Section -->
-
-
-    <!--- Three Column Section -->
-    <!--- End Three Column Section -->
-
-
-    <!--- Two Column Section -->
-    <!--- End Two Column Section -->
-
-
-    <!--- Fixed background -->
-    <!--- End Fixed background -->
-
-
-    <!--- Emoji Section -->
-    <!--- End Emoji Section -->
-
-
-    <!--- Meet the team -->
-    <!--- End Meet the team -->
-
-    <!--- Cards -->
-        <div class="card-deck">
-
-          <!-- Card -->
-          <div class="card mb-4">
-
-            <!--Card image-->
-            <div class="view overlay">
-              <img class="card-img-top" src="src/static/img/science_card.png"
-                alt="Card image cap">
-              <a href="#!">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-
-              <!--Title-->
-              <h4 class="card-title">Tutoriais para melhorar as habilidades sobre Data Science e Machine Learning.</h4>
-              <!--Text-->
-              <p class="card-text">Alguns exemplos de tutorias hospedados no GitHub realizados para melhoria de minhas habilidades sobre Data Science e Machine Learning.</p>
-              <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <a href="https://github.com/Data-Science-Python-Marcus-Mariano" target="_blank" class="btn btn-primary">Ver GitHub</a>
-
-            </div>
-
-          </div>
-          <!-- Card -->
-
-          <!-- Card -->
-          <div class="card mb-4">
-
-            <!--Card image-->
-            <div class="view overlay">
-              <img class="card-img-top" src="src/static/img/flask_card.png"
-                alt="Card image cap">
-              <a href="#!">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-
-              <!--Title-->
-              <h4 class="card-title">Tutoriais para melhorar as habilidades no Framework Flask.</h4>
-              <!--Text-->
-              <p class="card-text">Alguns exemplos de tutorias hospedados no GitHub realizados para melhoria de minhas habilidades sobre Flask.</p>
-              <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <a href="https://github.com/Flask-Examples" target="_blank" class="btn btn-primary">Ver GitHub</a>
-
-            </div>
-
-          </div>
-          <!-- Card -->
-
-          <!-- Card -->
-          <div class="card mb-4">
-
-            <!--Card image-->
-            <div class="view overlay">
-              <img class="card-img-top" src="src/static/img/python_card.png"
-                alt="Card image cap">
-              <a href="#!">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-
-              <!--Title-->
-              <h4 class="card-title">Tutoriais para melhorar as habilidades na Linguagem Python.</h4>
-              <!--Text-->
-              <p class="card-text">Alguns exemplos de tutorias hospedados no GitHub realizados para melhoria de minhas habilidades sobre diversas ferramentas da Linguagem Python.</p>
-              <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <a href="https://github.com/python-marcus-mariano" target="_blank" class="btn btn-primary">Ver GitHub</a>
-
-            </div>
-
-          </div>
-          <!-- Card -->
-
-        </div>
-    <!--- End Cards -->
-
-    <!--- Two Column Section -->
-    <!--- End Two Column Section -->
-
-
-    <!--- Connect -->
-    <!--- End Connect -->
-
-    <!--- Footer -->
-        <footer class="page-footer font-small unique-color-dark">
-
-          <!-- <div style="background-color: #6351ce;"> -->
-          <div class="bg-primary text-white">
+        <!--- Image Slider -->
+        <div class="parallax-container">
             <div class="container">
-
-              <!-- Grid row-->
-              <div class="row py-4 d-flex align-items-center">
-
-                <!-- Grid column -->
-                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                  <h6 class="mb-0">Para entrar em contato comigo nas redes sociais!</h6>
+                <h5 class="white-text center"> <img class="image" src="src/static/img/science_logo_3.png"  height="30px" width="30px"> Cientista de Dados em Formação</h5>
+                <h2 class="header center white-text">Marcus Ney Mariano da Silva</h2>
+                <div class="row center">
+                    <p class="header col s12 white-text">Sou formado em Engenharia Mecânica pela UFRN, trabalhei por quatro anos em obras de Construção e Montagem Eletromecânica ajudando na gestão de produtividade. Atualmente estou desenvolvendo meus conhecimentos na área de Inteligência Artificial.</p>
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-                  <!--GitHub -->
-                  <a href="https://github.com/marcusmariano" target="_blank">
-                    <i class="fab fa-github white-text mr-4" style="color: white"> </i>
-                  </a>
-                  <!-- Facebook -->
-                  <a href="https://www.facebook.com/marcus.mariano.16" target="_blank">
-                    <i class="fab fa-facebook-f white-text mr-4" style="color: white"> </i>
-                  </a>
-                  <!--Linkedin -->
-                  <a href="https://www.linkedin.com/in/marcusmariano/" target="_blank">
-                    <i class="fab fa-linkedin-in white-text mr-4" style="color: white"> </i>
-                  </a>
-
+                <div class="row center">
+                    <a href="#" class="btn-large waves-effect waves-light light-blue darken-2"> Ver Projetos</a>
                 </div>
-                <!-- Grid column -->
-
-              </div>
-              <!-- Grid row-->
-
+                <br><br>
             </div>
-          </div>
+            <div class="parallax"><img src="src\static\img\data_01.jpg"></div>
+        </div>
+        <!--- End Image Slider -->
 
-          <!-- Footer Links -->
-          <div class="container text-center text-md-left mt-4">
 
-            <!-- Grid row -->
-            <div class="row py-2 d-flex align-leftr">
 
-              <!-- Grid column -->
-              <div class="mx-auto mb-md-0 mb-4">
-
-                <!-- Links -->
-                  <i class="fas fa-home mr-1"></i> Rio Grande do Norte, Brasil<i class="mr-3"></i>
-
-                  <i class="fas fa-envelope mr-1"></i> marcusney@gmail.com<i class="mr-3"></i>
-
-                  <i class="fab fa-whatsapp mr-2"></i><i class="fab fa-telegram-plane mr-1"></i> + 55 (81) 99264-2626<i class="mr-3"></i>
-
-                  <i class="fas fa-phone mr-1"></i> + 55 (84) 99849-3622<i class="mr-3"></i>
+        <!-- Portfolio -->
+        <div class="container">
+          <div class="row left">
+              <br><br>
+              <h3 class="header left light-blue-text text-darken-3">Meu Portfólio!</h3>
+              <div class="row left">
+                  <p class="header col s18 light">Conheça um pouco da minha experiência profissional, estudos realizados, ares de interesse e projetos no meu Portfólio.</p>
+                  <br><br>
+                  <hr class="black">
+                  <br>
+                  <p class="header col s12 light">Tenho conhecimento em Python para Data Science e Machine Learning  (Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn) nas plataformas Jupyter Notebook e Spyder.</p>
               </div>
-
-                <!-- Copyright -->
-                <div class="footer-copyright text-right">© 2020 Copyright:
-                  <a href="https://marcusmariano.github.io/mmariano/"> Marcus Mariano</a>
-                </div>
-
-            </div>
+              <div class="row left">
+                  <a href="portfolio.html" id="download-button" class="btn-large waves-effect waves-light light-blue darken-4"> Ver Portfólio</a>
+              </div>
+              <br><br>
           </div>
+        </div>
+
+        <!-- End Protfolio -->
+
+
+        <!--- CARDS -->
+        <div class="row">
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="src/static/img/science_card.png">
+                        <span class="card-title blue-text">Machine Learning</span>
+                    </div>
+                    <div class="card-content">
+                        <h5>Tutoriais para melhorar as habilidades sobre Data Science e Machine Learning.</h5>
+                        <p>Alguns exemplos de tutorias hospedados no GitHub realizados para melhoria de minhas habilidades sobre Data Science e Machine Learning.</p>
+                        </div>
+                    <div class="card-action ">
+                        <div class="btn light-blue darken-4">
+                            <a  class="white-text" href="https://github.com/Data-Science-Python-Marcus-Mariano">Ver GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="src/static/img/flask_card.png">
+                        <span class="card-title  blue-text">Flask</span>
+                    </div>
+                    <div class="card-content">
+                        <h5>Tutoriais para melhorar as habilidades no Framework Flask.</h5>
+                        <p>Alguns exemplos de tutorias hospedados no GitHub realizados para melhoria de minhas habilidades sobre Flask.</p>
+                        </div>
+                    <div class="card-action ">
+                        <div class="btn light-blue darken-4">
+                            <a  class="white-text" href="https://github.com/Flask-Examples" target="_blank">Ver GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="src/static/img/python_card.png">
+                        <span class="card-title  blue-text">Linguagem Python</span>
+                    </div>
+                    <div class="card-content">
+                        <h5>Tutoriais para melhorar as habilidades na Linguagem Python.</h5>
+                        <p>Alguns exemplos de tutorias hospedados no GitHub realizados para melhoria de minhas habilidades sobre diversas ferramentas da Linguagem Python.</p>
+                        </div>
+                    <div class="card-action ">
+                        <div class="btn light-blue darken-4">
+                            <a class="white-text" href="https://github.com/python-marcus-mariano">Ver GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--- End Cards -->
+
+
+        <!--- Footer -->
+
+        <footer class="page-footer light-blue darken-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col s6 l8 left">
+                      <h6 class="white-text">Para entrar em contato comigo nas redes sociais!</h6>
+                    </div>
+
+                    <div class="col s6 l4 right">
+
+                        <!--GitHub -->
+                         <a href="https://github.com/marcusmariano" target="_blank">
+                           <i class="fab fa-github white-text mr-4" style="color: white"> </i>
+                       </a><i class="mr-8"></i>
+                         <!-- Facebook -->
+                         <a href="https://www.facebook.com/marcus.mariano.16" target="_blank">
+                           <i class="fab fa-facebook-f white-text mr-4" style="color: white"> </i>
+                         </a>
+                         <!--Linkedin -->
+                         <a href="https://www.linkedin.com/in/marcusmariano/" target="_blank">
+                           <i class="fab fa-linkedin-in white-text mr-4" style="color: white"> </i>
+                         </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <!-- <div class="container"> -->
+                    <div class="row">
+                        <div class="col s12 l12 center-align">
+                            <!-- Links -->
+                            <i class="fas fa-home"></i> Rio Grande do Norte, Brasil<i></i>
+                            <i class="fas fa-envelope"></i> marcusney@gmail.com<i></i>
+                            <i class="fab fa-whatsapp"></i><i class="fab fa-telegram-plane"></i> + 55 (81) 99264-2626<i></i>
+                            <i class="fas fa-phone"></i> + 55 (84) 99849-3622<i></i>
+
+                            © 2020 Copyright Text
+                            <a class="grey-text text-lighten-4" href="https://marcusmariano.github.io/mmariano/"> Marcus Mariano</a>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </div>
 
         </footer>
-    <!--- End Footer -->
 
+        <!--- End Footer -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="src/static/js/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
-    <script src="src/static/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="src/static/js/core.js"></script>
 
-    <!-- Hosting Font Awesome Yourself -->
-    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-a11y="true"></script>
+        <!-- Hosting Font Awesome Yourself -->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-a11y="true"></script>
 
-    <script src="src\static\fontawesome_5.12.1\svgs\brands" ></script>
-    <script src="src\static\fontawesome_5.12.1\svgs\regular" ></script>
-    <script src="src\static\fontawesome_5.12.1\svgs\solid" ></script>
+        <script src="src\static\fontawesome_5.12.1\svgs\brands" ></script>
+        <script src="src\static\fontawesome_5.12.1\svgs\regular" ></script>
+        <script src="src\static\fontawesome_5.12.1\svgs\solid" ></script>
 
-</body>
+    </body>
 </html>
