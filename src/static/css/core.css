@@ -69,6 +69,54 @@ p.lead-experience {
     }
 }
 
+/* Image from card */
+
+
+.card {
+  display: auto;
+}
+.card img {
+  max-height: 350px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+
+/* image {
+  margin-left: 5xp;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 5px;
+  width: auto;
+} */
+
+/* .card card-image img {
+  margin-left: 5xp;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}  */
+
+/* @media (max-width: 30px) {
+  .card img {
+      padding-right: 2rem;
+  }
+} */
+
+/* end image */
+
+
+/* Span from Card */
+
+.card span {  
+  padding-left: 2rem;
+}
+
+/* end span */
+
 li  {
     font-size: 1.15rem;
     font-weight: 400;
