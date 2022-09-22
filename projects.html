@@ -31,7 +31,7 @@
             <nav class="light-blue darken-3">
                 <div class="nav-wrapper container">
                     <!-- Logo -->
-                    <a href="#" class="brand-logo">
+                    <a href="index.html" class="brand-logo">
                         <img src="src/static/img/science_logo_2.png" height="37px" width="37px">
                     </a>
 
@@ -41,9 +41,9 @@
                     </a>
 
                     <ul id="navbar-items" class="right hide-on-med-and-down">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <!-- <li><a href="error.html">Projetos</a></li> -->
-                        <li><a href="projects.html">Projetos</a></li>
+                        <li class="active"><a href="#">Projetos</a></li>
                         <li><a href="portfolio.html">Portfólio</a></li>                        
                         <!-- <li><a href="about.html">Sobre</a></li> -->
                     </ul>
@@ -52,137 +52,54 @@
         </div>
 
         <!-- Menu Mobile -->
-        <ul class="sidenav" id="menu-mobile">
-            <li class="active"><a href="#">Home</a></li>
+        <ul class="sidenav" id="menu-mobile">            
+            <li><a href="index.html">Home</a></li>
             <!-- <li><a href="error.html">Projetos</a></li> -->
-            <li><a href="projects.html">Projetos</a></li>
+            <li class="active"><a href="#">Projetos</a></li>
             <li><a href="portfolio.html">Portfólio</a></li>            
             <!-- <li><a href="about.html">Sobre</a></li> -->
         </ul>
         <!-- End Navigation -->
 
 
-        <!--- Image Slider -->
-        <div class="parallax-container">
-            <div class="container">
-                <h5 class="white-text center"> <img class="image" src="src/static/img/science_logo_3.png"  height="30px" width="30px"> Cientista de Dados em Formação</h5>
-                <h2 class="header center white-text">Marcus Ney Mariano da Silva</h2>
-                <div class="row center" style="font-size:0.9vw;">
-                    <p class="header col s12 white-text">Sou formado em Engenharia Mecânica pela UFRN, trabalhei por quatro anos em obras de Construção e Montagem Eletromecânica ajudando na gestão de produtividade. Atualmente estou desenvolvendo meus conhecimentos na área de Inteligência Artificial.</p>
-                </div>
-                <div class="row center">
-                    <a href="projects.html" class="btn-large waves-effect waves-light light-blue darken-2"> Ver Projetos</a>
-                </div>
-                <br><br>
-            </div>
-            <div class="parallax"><img src="src\static\img\data_01_C.jpg"></div>
-        </div>
-        <!--- End Image Slider -->
+        <!-- Projetos -->
 
-
-
-        <!-- Portfolio -->
-        <div class="container">
-          <div class="row left">
-              <br><br>
-              <h3 class="header left light-blue-text text-darken-3">Meu Portfólio!</h3>
-              <div class="row left" style="font-size:0.8vw;">
-                  <p class="header col s18 light">Conheça um pouco da minha experiência profissional, estudos realizados, ares de interesse e projetos no meu Portfólio.</p>
-                  <br><br>
-                  <hr class="black">
-                  
-                  <p class="header col s12 light">Tenho conhecimento em Python para Data Science e Machine Learning  (Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn) nas plataformas Jupyter Notebook e Spyder.</p>
-              </div>
-              <div class="row left">
-                  <a href="portfolio.html" id="download-button" class="btn-large waves-effect waves-light light-blue darken-4"> Ver Portfólio</a>
-              </div>
-              <br><br>
-          </div>
-        </div>
-
-        <!-- End Protfolio -->
-
-
-        <!--- CARDS -->
         <div class="row">
 
-
-            <div class="col s12 m4 l4">
-
-                <div class="card">
-                    <div class="card-image">
-                        <!-- <img src="src/static/img/science_card.png"  class="responsive-img"> -->
-                        <img src="src/static/img/science_card.png" >                        
+            <div class="container" style="position:center">
+                
+                <div class="row left">
+                    <br><br>
+                    <div>
+                        <h3 class="header left light-blue-text text-darken-3">Desafio 05 | SONDA - IBM</h3>
                     </div>
-                    
-                    <span class="card-title blue-text">Machine Learning</span>
-                    
-                    <div class="card-content">
-                        <h5>Tutoriais para melhorar as habilidades sobre Data Science e Machine Learning.</h5>
-                        <p>Alguns exemplos de tutorias hospedados no GitHub realizados para melhoria de minhas habilidades sobre Data Science e Machine Learning.</p>
-                        </div>
-                    <div class="card-action ">
-                        <div class="btn light-blue darken-4">
-                            <a  class="white-text" href="https://github.com/Data-Science-Python-Marcus-Mariano" target="_blank">Ver GitHub</a>
-                        </div>
+                    <div class="row left" style="font-size:1vw;">
+                        <p class="header col s18 light">Projeto foi baseado no Desafio 05 | SONDA da Maratona Behind The Code 2021.</p>
+                        <br><br>
+                        <hr class="black">                        
+                        <p class="header col s12 light">Apresenta o fluxo de trabalho de Machine Learning em um projeto do mundo real.</p>
                     </div>
+                    <div class="row left">
+                        <a href="https://github.com/Projects-Marcus-Mariano/Full-project-ML-IBM-SONDA/blob/master/00_IBM_SONDA_Churn.ipynb" id="download-button" class="btn-large waves-effect waves-light light-blue darken-4"> Ver Projeto</a>
+                    </div>
+                    <br><br>
                 </div>
-
-            </div>
-
-
-            <div class="col s12 m4 l4">
-
-                <div class="card">
-                    <div class="card-image">
-                        <img class="image" src="src/static/img/flask_card.png">
-                    </div>
-                    
-                    <span class="card-title  blue-text">Flask</span>
-                    
-                    <div class="card-content">
-                        <h5>Tutoriais para melhorar as habilidades no Framework Flask.</h5>
-                        <p>Alguns exemplos de tutorias hospedados no GitHub realizados para melhoria de minhas habilidades sobre Flask.</p>
-                        </div>
-                    <div class="card-action ">
-                        <div class="btn light-blue darken-4">
-                            <a href="https://github.com/Flask-Examples" target="_blank">Ver GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
             
+            </div>
 
-            <div class="col s12 m4 l4">
 
-                <div class="card">
-                    <div class="card-image">
-                        <img class="image" src="src/static/img/python_card.png">
-                    </div>
-                    
-                    <span class="card-title  blue-text">Linguagem Python</span>
-                    
-                    <div class="card-content">
-                        <h5>Tutoriais para melhorar as habilidades na Linguagem Python.</h5>
-                        <p>Alguns exemplos de tutorias hospedados no GitHub realizados para melhoria de minhas habilidades sobre diversas ferramentas da Linguagem Python.</p>
-                        </div>
-                    <div class="card-action ">
-                        <div class="btn light-blue darken-4">
-                            <a class="white-text" href="https://github.com/python-marcus-mariano" target="_blank">Ver GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>            
 
         </div>
-        <!--- End Cards -->
+
+        <!-- End Projeto -->
+
+
+        
 
 
         <!--- Footer -->
 
-        <footer class="page-footer light-blue darken-2" >
+        <footer class="page-footer light-blue darken-2" style="position:fixed;bottom:0;left:0;width:100%;">
             <div class="container">
                 <div class="row">
                     <div class="col s6 l8 left">
