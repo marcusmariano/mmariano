@@ -118,6 +118,19 @@ li  {
   margin-right: 1rem;
 }
 
+.social-icons-footer a {
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #0277bd;
+  color: #ffffff !important;
+  border-radius: 80%;
+  text-align: center;  
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-right: 1.0rem;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
